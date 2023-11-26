@@ -3,11 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import Navigation from './Routes/Navigation'
 import Data from './data/Datademo'
 import Popular  from './PopularPeople/Popular'
+import Film from './DetailsFilm/Film'
 export default function App() {
   return (
     // <Navigation />
-    <Popular />
+    // <Popular />
     // <Data />
+    <Film />
+    // <FlatDa />
   );
 }
 
